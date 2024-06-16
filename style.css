@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+#resume-background {
+    background: #fff;
+    padding: 0 2rem;
+    height: auto;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+li {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+h3 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+.fullname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem;
+}
+
+.fullname h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 4;
+    border-bottom: 2px solid rgb(193, 178, 178);
+    border-top: 2px solid rgb(193, 178, 178);
+}
+
+.seperation {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.left-container {
+    max-width: 40%;
+    border-right: 2px solid rgb(193, 178, 178);
+}
+
+/* CONTACT */
+
+.link {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.link-logo {
+    width: 4%;
+    margin: 0.5rem 0;
+}
+
+
+/* SKILLS */
+.skills {
+    margin: 4rem 0;
+}
+
+.skill {
+    margin: 2rem 3rem 0 0;
+}
+
+/* EDUCATION */
+.education {
+    margin: 4rem 0;
+}
+
+.education-details {
+    margin: 2rem 3rem 0 0;
+    line-height: 1.8;
+}
+
+
+.right-container {
+    max-width: 60%;
+    padding: 0rem 3rem;
+}
+
+
+
+/* WORK EXPERINECE */
+.work_experience {
+    margin-top: 5rem;
+}
+
+.experience-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+}
+
+
+/*   */
+/* MEDIA QUERIES */
+/*  */
+
+/* For Large Device */
+@media only screen and (min-width: 1356px) {
+    body {
+        background: #000;
+        padding: 0 15rem;
+    }
+}
+
+
+/* For Medium Device */
+@media only screen and (min-width: 601px) and (max-width: 1355px) {
+
+    .fullname {
+        padding: 2rem;
+    }
+
+    .fullname h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .title {
+        font-size: 1rem;
+        line-height: 3;
+    }
+
+    p {
+        line-height: 1.4;
+        font-size: 0.8rem;
+    }
+
+    li {
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+    }
+
+    h3 {
+        margin: 1.2rem 0;
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .seperation {
+        margin-top: 2rem;
+    }
+
+
+    /* CONTACT */
+
+    .link {
+        gap: 0.6rem;
+        font-size: 0.7rem;
+    }
+
+    .link-logo {
+        width: 8%;
+        margin: 0.3rem 0;
+    }
+
+    /* SKILLS */
+    .skills {
+        margin: 3rem 0;
+    }
+
+    .skill {
+        margin: 1rem 2rem 0 0;
+    }
+
+    /* EDUCATION */
+    .education {
+        margin: 3rem 0;
+    }
+
+    .education-details {
+        margin: 1rem 2rem 0 0;
+        line-height: 1.4;
+    }
+
+    .right-container {
+        max-width: 60%;
+        padding: 0 0 0 2rem;
+    }
+
+
+    /* WORK EXPERINECE */
+    .work_experience {
+        margin-top: 2.8rem;
+    }
+
+    .experience-details {
+        gap: 1.2rem;
+    }
+}
+
+
+/* For Small Device */
+@media only screen and (max-width: 600px) {
+    #resume-background {
+        background: #fff;
+        padding: 0 0.7rem;
+    }
+
+    .fullname {
+        padding: 2rem;
+    }
+
+    .fullname h1 {
+        font-size: 1.3rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .title {
+        font-size: 0.8rem;
+        line-height: 2;
+    }
+
+    p {
+        line-height: 1.2;
+        font-size: 0.7rem;
+        text-align: start;
+    }
+
+    li {
+        margin-bottom: 0.8rem;
+        font-size: 0.7rem;
+    }
+
+    h3 {
+        margin: 0.8rem 0;
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    .seperation {
+        margin-top: 2rem;
+    }
+
+
+    /* CONTACT */
+
+    .link {
+        gap: 0.6rem;
+        font-size: 0.52rem;
+    }
+
+    .link-logo {
+        width: 8%;
+        margin: 0.3rem 0;
+    }
+
+    /* SKILLS */
+    .skills {
+        margin: 2rem 0;
+    }
+
+    .skill {
+        margin: 1rem 0.7rem 0 0;
+    }
+
+    /* EDUCATION */
+    .education {
+        margin: 2rem 0;
+    }
+
+    .education-details {
+        margin: 1rem 0.7rem 0 0;
+        line-height: 1.2;
+    }
+
+    .right-container {
+        max-width: 60%;
+        padding: 0 0 0 0.7rem;
+    }
+
+
+    /* WORK EXPERINECE */
+    .work_experience {
+        margin-top: 2.2rem;
+    }
+
+    .experience-details {
+        gap: 1rem;
+    }
+}
