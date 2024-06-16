@@ -5,9 +5,16 @@
 
 This repository contains the source code for my responsive resume website, built using HTML and CSS. The website is designed to showcase my skills, education, work experience, and contact information in a clean and professional manner.
 
+## Demo
+You can view a live demo of the website [here](https://anshumansinha2001.github.io/build-resume-website). 
 
-
-
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Contact](#contact)
 
 ## Features
 - Fully responsive design that looks great on both desktop and mobile devices.
